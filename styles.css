@@ -1,0 +1,28 @@
+/* CSS styles.css */
+.firstDiv, .secondDiv, .thirdDiv {
+    height: 200px;
+    width: 200px;
+  }
+
+  .firstDiv {
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 20;
+ 
+  }
+  .secondDiv {
+    background-color: green;
+    position: relative;
+    bottom: 25px;
+    left: 175px;
+    z-index: 15;
+  }
+  .thirdDiv {
+    background-color: blue;
+    position: relative;
+    bottom: 150px;
+    left: 250px;
+    z-index: 20;
+  }
